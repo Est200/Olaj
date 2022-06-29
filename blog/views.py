@@ -4,7 +4,7 @@ from django.views.generic.edit import CreateView
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import UpdateView
 from django.views.generic.edit import DeleteView
-from blog.models import Post
+from .models import Post
 from django.urls import reverse_lazy
 # Create your views here.
 class PostListView(ListView):
